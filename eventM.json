@@ -1,0 +1,28 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "session1234",
+    "attributes": {},
+    "user": {
+      "userId": "usr123"
+    },
+    "application": {
+      "applicationId": "amzn1.ask.skill.8846dbf3-66da-4ec4-b575-a9b8b0fe8991"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "intent": {
+      "slots": {
+        "ingredients": {
+          "name": "ingredients",
+          "value": "tomato chilly onion"
+        }
+      },
+      "name": "NewIngredientIntent"
+    },
+    "type": "IntentRequest",
+    "requestId": "request5678"
+  }
+}
+

@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "ingredients",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ],
+      "intent": "NewIngredientIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "ingredients",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ],
+      "intent": "AddIngredientIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "ingredients",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ],
+      "intent": "RemoveIngredientIntent"
+    },
+    {
+      "intent": "NextInstructionIntent"
+    },
+    {
+      "intent": "InstructionSetIntent"
+    },
+    {
+      "intent": "NextRecipe"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
